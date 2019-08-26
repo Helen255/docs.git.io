@@ -1,0 +1,64 @@
+{
+    "name": "App\\Http\\Controllers\\HomeController",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "\/home\/helen\/Documentos\/laravel\/stisla-laravel\/app\/Http\/Controllers\/HomeController.php",
+    "relative_file": null,
+    "hash": "f93b68f4bc43f9b192aeeaf7f6e22a582525d123",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 14,
+            "short_desc": "Create a new controller instance.",
+            "long_desc": "metodo constructor se encarga de inicializar los atributos del objeto",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "middleware recibe al siguiente de la lista",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "index": {
+            "name": "index",
+            "line": 25,
+            "short_desc": "Show the application dashboard.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Contracts\\Support\\Renderable",
+                    false
+                ]
+            ],
+            "hint_desc": "la vista con los datos que contiene home",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

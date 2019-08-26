@@ -1,0 +1,74 @@
+{
+    "name": "App\\Http\\Controllers\\DashboardController",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "\/home\/helen\/Documentos\/laravel\/stisla-laravel\/app\/Http\/Controllers\/DashboardController.php",
+    "relative_file": null,
+    "hash": "6cd563522d4e1a85a2d88d6d3d8d9af37f017856",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__invoke": {
+            "name": "__invoke",
+            "line": 14,
+            "short_desc": "[__invoke description] devuelbe los resultados de la llamada a la funcion invocada",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\[type]",
+                    false
+                ]
+            ],
+            "hint_desc": "[description] devuelbe los datos de la vista",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 14,
+                    "short_desc": "[description] con los resultados obtenidos",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "Illuminate",
+                            "Http",
+                            "Request"
+                        ],
+                        "attributes": {
+                            "startLine": 14,
+                            "endLine": 14
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

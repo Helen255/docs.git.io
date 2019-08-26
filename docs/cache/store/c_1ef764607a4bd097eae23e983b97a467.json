@@ -1,0 +1,47 @@
+{
+    "name": "App\\Http\\Controllers\\JsController",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "\/home\/helen\/Documentos\/laravel\/stisla-laravel\/app\/Http\/Controllers\/JsController.php",
+    "relative_file": null,
+    "hash": "c43b347f6d828f78f71299a3750dbeb83584ed2f",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "View": "View",
+        "Response": "Response"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "dynamic": {
+            "name": "dynamic",
+            "line": 16,
+            "short_desc": "[dynamic description crear funciones dinamicas que recibe la matriz de registros y que se ejecuta cada vez que se llama un metodo, ]",
+            "long_desc": "@abstract  este argumento pasado  es una matriz de datos que deber\u00edan estar disponibles para la vista.View::make",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\[type]",
+                    false
+                ]
+            ],
+            "hint_desc": "[description respondce::make los datos de la vista dynamic]",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

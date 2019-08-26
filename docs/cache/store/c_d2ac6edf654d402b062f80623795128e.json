@@ -1,0 +1,397 @@
+{
+    "name": "App\\Http\\Controllers\\UserController",
+    "line": 12,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "\/home\/helen\/Documentos\/laravel\/stisla-laravel\/app\/Http\/Controllers\/UserController.php",
+    "relative_file": null,
+    "hash": "7781885570144b57a591c2a79cc2ff3c49c05fa8",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "User": "App\\User",
+        "Hash": "Illuminate\\Support\\Facades\\Hash",
+        "Role": "Spatie\\Permission\\Models\\Role",
+        "App": "App"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 18,
+            "short_desc": "[__construct description metodo constructor se encarga de inicializar los atributos del objeto]",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\el",
+                    false
+                ]
+            ],
+            "hint_desc": "metodo authorizeResource, acepta el nombre de la clase como primer argumento y el nombre de la ruta.",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "index": {
+            "name": "index",
+            "line": 36,
+            "short_desc": "Display a listing of the resource",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "authorize al usuario una solicitud de formulario solo si es una llamada con el metodo ajax().\n\n[$users description datos de las condiciones]\nwhere los nombres especificados y orwhere el correo selecionado para cada usuario\n\n[$users description personalizar la vista de paginacion]\nperpage dara el numero de elementos que se mostraran por pagina\n\njson convertira una insatancia de paginador a json",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 36,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Illuminate\\Http\\Request",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "Illuminate",
+                            "Http",
+                            "Request"
+                        ],
+                        "attributes": {
+                            "startLine": 36,
+                            "endLine": 36
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "create": {
+            "name": "create",
+            "line": 59,
+            "short_desc": "Show the form for creating a new resource.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "devolvera los datos que contiene las vistas",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "store": {
+            "name": "store",
+            "line": 73,
+            "short_desc": "Store a newly created resource in storage.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "Role sirve para crear diferentes roles y permisos que puedan editar eliminar etc\n\njson convertira una insatancia de paginador a json",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 73,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Requests\\UserAddRequest",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "App",
+                            "Http",
+                            "Requests",
+                            "UserAddRequest"
+                        ],
+                        "attributes": {
+                            "startLine": 73,
+                            "endLine": 73
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "show": {
+            "name": "show",
+            "line": 90,
+            "short_desc": "Display the specified resource.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 90,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "edit": {
+            "name": "edit",
+            "line": 104,
+            "short_desc": "Show the form for editing the specified resource.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "datos que contienen las vistas.\n\ncompact crea una matriz que contiene variables con sus valores, los nombres de las variables se convierten en la clave y eso se convierte en el valor de la clave",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"id\" @param tag variable name is wrong (should be \"user\")"
+            ],
+            "parameters": {
+                "user": {
+                    "name": "user",
+                    "line": 104,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "App",
+                            "User"
+                        ],
+                        "attributes": {
+                            "startLine": 104,
+                            "endLine": 104
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "update": {
+            "name": "update",
+            "line": 127,
+            "short_desc": "Update the specified resource in storage.",
+            "long_desc": "[$user validacion de contrase\u00f1a de actualizacion del usuario]",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "environment metodo que verifica si el entorno coincide con un valor dado\nupdate actualizar y only es para que me actualize solo los campos seleccionados\n\nhash::make validara la nueva longitud de contrase\u00f1a\n\nmetodo user()->can recibe la accion que desea autorizar y el modelo relevante, si esta autorizado para actualizar un modelo dado\n\n[$role description roles de cada usuario ]\ncrear diferentes roles y permisos que puedan editar, eliminar etc.\n\njson convertira una insatancia de paginador a json",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"id\" @param tag variable name is wrong (should be \"user\")"
+            ],
+            "parameters": {
+                "request": {
+                    "name": "request",
+                    "line": 127,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\Http\\Requests\\UserUpdateRequest",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "App",
+                            "Http",
+                            "Requests",
+                            "UserUpdateRequest"
+                        ],
+                        "attributes": {
+                            "startLine": 127,
+                            "endLine": 127
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                },
+                "user": {
+                    "name": "user",
+                    "line": 127,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "App",
+                            "User"
+                        ],
+                        "attributes": {
+                            "startLine": 127,
+                            "endLine": 127
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "destroy": {
+            "name": "destroy",
+            "line": 162,
+            "short_desc": "Remove the specified resource from storage.",
+            "long_desc": "[description eliminacion de datos]",
+            "hint": [
+                [
+                    "\\Illuminate\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "App::environment devolvera true si el entorno coincide con algunos de los valores dados del metodo delete()\n\n[description notificar lo de la funcion destroy]\nresponse()->json permitira que solo un usuario con un rol de administrado pueda eliminar ususarios",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [
+                "The \"id\" @param tag variable name is wrong (should be \"user\")"
+            ],
+            "parameters": {
+                "user": {
+                    "name": "user",
+                    "line": 162,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\App\\User",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "App",
+                            "User"
+                        ],
+                        "attributes": {
+                            "startLine": 162,
+                            "endLine": 162
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "roles": {
+            "name": "roles",
+            "line": 176,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\App\\Http\\Controllers\\rol",
+                    false
+                ]
+            ],
+            "hint_desc": "asignado a cada usuario",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}
